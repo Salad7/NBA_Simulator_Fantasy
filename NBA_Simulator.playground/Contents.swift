@@ -17,7 +17,33 @@ let players = 30;
 public class Player {
     
     
-    init(){
+    init(team :String, name :String, position :String
+         ,points :Int, assists :Int, blocks :Int
+        ,rebounds :Int, steals :Int, fgMade:Int, fgMissed :Int, fgp :Decimal, ftMade :Int, ftMissed :Int, ftp :Decimal, tMade :Int, tMissed :Int, tp :Decimal, ranking :Int
+         ){
+        self.team = team;
+        self.name = name;
+        self.position = position
+        
+        self.points = points;
+        self.assists = assists
+        self.rebounds = rebounds
+        self.blocks = blocks
+        self.steals = steals
+        
+        self.fgMade = fgMade
+        self.ftMade = ftMade
+        self.tMade = tMade
+        self.fgMissed = fgMissed
+        self.ftMissed = ftMissed
+        self.tMissed = tMissed
+        
+        self.fgp = fgp
+        self.ftp = ftp
+        self.tp = tp
+        
+        self.ranking = ranking
+        
         
     }
     var team :String;
