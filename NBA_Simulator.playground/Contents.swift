@@ -21,11 +21,11 @@ public class Player {
          ,points :Int, assists :Int, blocks :Int
         ,rebounds :Int, steals :Int, fgMade:Int, fgMissed :Int, fgp :Decimal, ftMade :Int, ftMissed :Int, ftp :Decimal, tMade :Int, tMissed :Int, tp :Decimal, ranking :Int
          ){
-        self.team = team;
-        self.name = name;
+        self.team = team
+        self.name = name
         self.position = position
         
-        self.points = points;
+        self.points = points
         self.assists = assists
         self.rebounds = rebounds
         self.blocks = blocks
